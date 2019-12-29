@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: 'TaskService.proj'
+  solution: 'TaskService.csproj'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
