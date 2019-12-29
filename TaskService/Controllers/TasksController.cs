@@ -11,6 +11,7 @@ using System.Web.Http;
 namespace TaskService.Controllers
 {
     [Authorize]
+    //this is change
     public class TasksController : ApiController
     {
         // In this service we're using an in-memory list to store tasks, just to keep things simple.
